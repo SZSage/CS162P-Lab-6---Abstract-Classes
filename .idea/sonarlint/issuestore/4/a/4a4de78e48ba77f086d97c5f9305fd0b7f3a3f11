@@ -1,0 +1,6 @@
+
+_python:S2208"GImport only needed names or import the module and then use its members.(î¼ûå
+_python:S2208"GImport only needed names or import the module and then use its members.(ƒıß
+opython:S1542"RRename function "resetGlobals" to match the regular expression ^[a-z_][a-z0-9_]*$.(ª¨•ğÿÿÿÿÿ
+tpython:S1542"WRename function "testMTConstructor" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÜçÒÏıÿÿÿÿ
+jpython:S1542)"MRename function "testAdd" to match the regular expression ^[a-z_][a-z0-9_]*$.(¼²ºÛşÿÿÿÿ

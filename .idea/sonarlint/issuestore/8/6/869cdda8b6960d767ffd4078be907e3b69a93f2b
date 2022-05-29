@@ -1,0 +1,14 @@
+
+dpython:S2208"GImport only needed names or import the module and then use its members.(¶÷ øÿÿÿÿ
+_python:S2208"GImport only needed names or import the module and then use its members.(ë×ë¾
+spython:S117
+"WRename this parameter "engineValue" to match the regular expression ^[_a-z][a-z0-9_]*$.(¡ìš»ùÿÿÿÿ
+fpython:S1763 "GDelete this unreachable code or refactor the code to make it reachable.(ã‘Û¾8Š™Ãå0
+;python:S2772 "Remove this unneeded "pass".(ã‘Û¾8‹™Ãå0
+fpython:S1763)"GDelete this unreachable code or refactor the code to make it reachable.(ã‘Û¾8‹™Ãå0
+;python:S2772)"Remove this unneeded "pass".(ã‘Û¾8Œ™Ãå0
+ppython:S117E"YRename this local variable "mustFlip" to match the regular expression ^[_a-z][a-z0-9_]*$.(–Õ³
+upython:S117F"YRename this local variable "okToPlay" to match the regular expression ^[_a-z][a-z0-9_]*$.(ä£©æøÿÿÿÿ
+@python:S108N")Either remove or fill this block of code.(ã‘Û¾
+ppython:S117W"YRename this local variable "mustFlip" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹˜•
+ppython:S117W"YRename this local variable "okToPlay" to match the regular expression ^[_a-z][a-z0-9_]*$.(¹˜•
