@@ -63,7 +63,7 @@ class Train(ABC):
         DO NOT CHANGE THIS IMPLEMENTATION """
         pass
 
-    def _isPlayable(self, domino):  # can't call in main
+    def _isPlayable(self, domino):
         """ this protected method contains the logic for determining if a domino is playable on the train """
         if isinstance(domino, Domino):
             mustFlip = False

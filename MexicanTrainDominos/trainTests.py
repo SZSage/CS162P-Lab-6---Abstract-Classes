@@ -32,7 +32,7 @@ def testMTConstructor():
     global mTrain1, mTrain2, h, hOther, pTrain, d12_1, d1_12, d3_4, d1_6
     resetGlobals()
     # the rest of your test will go here
-
+    print(f"\033[1mMexican Train constructor\033[0m")
     print(f"Testing count. Expect domino count for mTrain1 0: {mTrain1.count}")
     print(f"Testing isEmpty. Expect domino count for mTrain1 true: {mTrain1.isEmpty}")
     print(f"Testing playableValue. Expect engine value 12: {mTrain1.playableValue}")
@@ -59,15 +59,15 @@ def testAdd():
 def testPlayOnMexicanTrain():
     global mTrain1, mTrain2, h, hOther, pTrain, d12_1, d1_12, d3_4, d1_6
     resetGlobals()
+    print("\033[1mPlay on mexican train\033[0m")
     okToPlay, mustFlip = mTrain1.isPlayable(h, d1_12)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
+    print(f"Testing {d12_1}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
     okToPlay, mustFlip = mTrain1.isPlayable(h, d12_1)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
+    print(f"Testing {d12_1}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
     okToPlay, mustFlip = mTrain1.isPlayable(h, d3_4)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}\n")
+    print(f"Testing {d3_4}: okToPlay: {okToPlay}, mustFlip: {mustFlip}\n")
 
     print("\033[1mBefore play\033[0m")
     print(f"Last domino: {mTrain1.lastDomino}")
@@ -91,20 +91,20 @@ def testPlayOnMexicanTrain():
 def testPlayOnPlayerTrain():
     global mTrain1, mTrain2, h, hOther, pTrain, d12_1, d1_12, d3_4, d1_6
     resetGlobals()
+    print(f"\033[1mPlay on player train\033[0m")
     okToPlay, mustFlip = pTrain.isPlayable(h, d1_12)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
+    print(f"Testing {d1_12}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
     okToPlay, mustFlip = pTrain.isPlayable(h, d12_1)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
+    print(f"Testing {d12_1}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
     okToPlay, mustFlip = pTrain.isPlayable(h, d3_4)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
+    print(f"Testing {d3_4}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
     okToPlay, mustFlip = pTrain.isPlayable(hOther, d1_12)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
-    pTrain.isOpen()
+    print(f"Testing {d12_1}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+
+    pTrain.isOpen
     okToPlay, mustFlip = pTrain.isPlayable(hOther, d1_12)
-    print(f"okToPlay: {okToPlay}")
-    print(f"mustFlip: {mustFlip}")
-    print()
+    print(f"Testing {d1_12}: okToPlay: {okToPlay}, mustFlip: {mustFlip}")
+

@@ -14,10 +14,14 @@ class PlayerTrain(Train):
 
     @property
     def isOpen(self):
-        return self.__isOpen == True
+        return self.__isOpen == self.__isOpen
 
     def isPlayable(self, hand, domino):
-        if hand == self.__hand:
-            self._isPlayable(domino)
-        if self.__isOpen:
-            self._isPlayable(domino)
+        if Hand() == self.__hand or self.__isOpen:
+            return self._isPlayable(domino)
+
+    def open(self):
+        return self.__isOpen == True
+
+    def close(self):
+        return self.__isOpen == False
